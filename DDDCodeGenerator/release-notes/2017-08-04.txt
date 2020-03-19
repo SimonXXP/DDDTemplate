@@ -1,0 +1,20 @@
+﻿
+Release Notes
+
+====================================================
+Version     :   Beta 0.2
+Date        :   2017-08-04
+Contributor :   Stone shilei@shinetechchina.com
+====================================================
+
+Changes on Beta 0.2:
+
+  - Support CodeFirst Dlls
+
+Fixed bugs:
+
+  - Fixed namespace bugs in templates
+
+Notices:
+
+  - None

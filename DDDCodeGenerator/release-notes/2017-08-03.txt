@@ -1,0 +1,22 @@
+﻿
+Release Notes
+
+====================================================
+Version     :   Beta 0.1
+Date        :   2017-08-03
+Contributor :   Stone shilei@shinetechchina.com
+====================================================
+
+Changes on Beta 0.1:
+
+  - Create project and named DDDCodeGenerator
+  - Support DBFirst Dlls
+
+Notices:
+
+ - 无法确认entity的哪个属性是主键，所以默认把第一个值属性(可以是GUID，也可以是数字)作为主键，请生成代码后检查这里，如果不符合要求，请自行修改代码
+ - CommandHandlers的Validate方法请生成代码后自行添加验证规则
+ - 实体类所有的属性均生成了查询条件，如果不需要这么多条件，请删除
+ - 实体类的所有属性均出现在ListModel里面，如果不需要这么多列，请删除
+ - 所有属性都对应一个查询条件，在POCO的对应的DataAccess代码的#region Where里面，如果不需要这么多，请删除
+ - 本生成器实现了单表的所有Models，增删改查，webapi代码，如果有复杂逻辑请自行修改代码

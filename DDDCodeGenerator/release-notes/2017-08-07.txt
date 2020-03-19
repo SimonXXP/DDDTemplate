@@ -1,0 +1,21 @@
+﻿
+Release Notes
+
+====================================================
+Version     :   Beta 0.3
+Date        :   2017-08-04
+Contributor :   Stone shilei@shinetechchina.com
+====================================================
+
+Changes on Beta 0.3:
+
+  - Change project name from DDDCodeGenerator to ShineTechQD.DDDCodeGenerator
+  - Change project namespace from DDDCodeGenerator to ShineTechQD.DDDCodeGenerator
+
+Fixed bugs:
+
+  - None
+  
+Notices:
+
+  - None
